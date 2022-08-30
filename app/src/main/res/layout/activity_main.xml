@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="Đăng nhập hệ thống"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#ff00"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:id="@+id/m1_txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Username"
+        android:textSize="22sp"
+        android:layout_below="@id/m1_txtLogin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/etxtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textSize="22sp"
+        android:layout_below="@id/etxtUsername"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/m1_etxtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:text="Lưu đăng nhập"
+        android:textSize="20sp"
+        android:textColor="#4E4C4C"
+        android:layout_below="@id/m1_etxtPassword"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/m1_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:layout_below="@id/m1_checkBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/m1_btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

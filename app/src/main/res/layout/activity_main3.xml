@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:src="@drawable/back"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/m3_imgBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <WebView
+        android:layout_below="@id/m3_imgBack"
+        android:layout_marginTop="10dp"
+        android:id="@+id/m3_webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
